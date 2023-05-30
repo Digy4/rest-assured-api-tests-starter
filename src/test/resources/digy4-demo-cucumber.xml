@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CucumberDemoSuite">
+
+	<test name="Digy4CucumberDemoTest" parallel="methods" thread-count="10">
+        <classes>
+            <class name="com.digy4.cucumber.DigyTestRunner"/>
+        </classes>
+    </test>
+  
+</suite> 
