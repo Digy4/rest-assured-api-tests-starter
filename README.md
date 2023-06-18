@@ -28,7 +28,9 @@ Have you created an account with DigyDashboard? Please click https://dashboard.d
 - Details steps available here - https://help.digy4.com/docs/digy-dashboard/digyrunner-integration/rest-assured-api/
 
 ## Run the tests
+- Change <activeByDefault>false</activeByDefault> to true under cucumber
 - Run with cucumber `mvn clean install -Ddigy4.framework=cucumber -Ddigy4.teamName=Digy4 -Ddigy4.projectName=demo -Ddigy4.moduleName=Rest -Ddigy4.suiteName=integration -Ddigy4.testType=API -Ddigy4.threads=4 -Ddigy4.client_id= -Ddigy4.client_secret=`
+- - Change <activeByDefault>false</activeByDefault> to true under testng
 - Run with TestNG `mvn clean install -Ddigy4.framework=testng -Ddigy4.teamName=Digy4 -Ddigy4.projectName=demo -Ddigy4.moduleName=Rest -Ddigy4.suiteName=integration -Ddigy4.testType=API -Ddigy4.threads=4 -Ddigy4.client_id= -Ddigy4.client_secret=`
 
 ## Explore the results in the Digy Dashboard
