@@ -12,7 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<digyrunner.version>0.0.76</digyrunner.version>
+		<digyrunner.version>0.0.78</digyrunner.version>
 	</properties>
 
 	<repositories>
@@ -88,6 +88,7 @@
         <profile>
             <id>testng</id>
             <activation>
+            <activeByDefault>true</activeByDefault>
                 <property>
                     <name>framework</name>
                     <value>testng</value>
@@ -111,7 +112,7 @@
         <profile>
             <id>cucumber</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
                 <property>
                     <name>framework</name>
                     <value>cucumber</value>
