@@ -23,15 +23,12 @@ Have you created an account with DigyDashboard? Please click https://dashboard.d
 - `cd rest-assured-api-tests-starter`
 - For -Ddigy4.projectName=, use the project name you have created above (eg: Demo)
 - For digy4.client_id use the client ID and digy4.client_secret, use the client secret from above
-- Change `<activeByDefault>false</activeByDefault>` to true under cucumber in pom.xml
 - `mvn clean install  -Ddigy4.framework=cucumber -Ddigy4.teamName=Digy4 -Ddigy4.projectName=demo -Ddigy4.moduleName=Rest -Ddigy4.suiteName=integration -Ddigy4.testType=API -Ddigy4.threads=4 -Ddigy4.client_id= -Ddigy4.client_secret=`
 - Once this has completed, you can see the results in the DigyDashboard https://dashboard.digy4.com
 - Details steps available here - https://help.digy4.com/docs/digy-dashboard/digyrunner-integration/rest-assured-api/
 
 ## Run the tests - TestNG / Cucumber
-- Change `<activeByDefault>false</activeByDefault>` to true under cucumber in pom.xml
 - Run with cucumber `mvn clean install -Ddigy4.framework=cucumber -Ddigy4.teamName=Digy4 -Ddigy4.projectName=demo -Ddigy4.moduleName=Rest -Ddigy4.suiteName=integration -Ddigy4.testType=API -Ddigy4.threads=4 -Ddigy4.client_id= -Ddigy4.client_secret=`
-- - Change `<activeByDefault>false</activeByDefault>` to true under testng in pom.xml
 - Run with TestNG `mvn clean install -Ddigy4.framework=testng -Ddigy4.teamName=Digy4 -Ddigy4.projectName=demo -Ddigy4.moduleName=Rest -Ddigy4.suiteName=integration -Ddigy4.testType=API -Ddigy4.threads=4 -Ddigy4.client_id= -Ddigy4.client_secret=`
 
 ## Explore the results in the Digy Dashboard
