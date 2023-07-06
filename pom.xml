@@ -90,7 +90,7 @@
             <activation>
             <activeByDefault>true</activeByDefault>
                 <property>
-                    <name>framework</name>
+                    <name>digy4.framework</name>
                     <value>testng</value>
                 </property>
             </activation>
@@ -114,7 +114,7 @@
             <activation>
                 <activeByDefault>false</activeByDefault>
                 <property>
-                    <name>framework</name>
+                    <name>digy4.framework</name>
                     <value>cucumber</value>
                 </property>
             </activation>
